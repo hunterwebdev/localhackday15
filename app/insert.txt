@@ -1,0 +1,13 @@
+db.collectionname.remove({query})
+
+Items.insert({title:"My first item", createdAt: Date()});
+
+Items.insert({title:"nodejs",
+id:"1", datetime:"1444596996",
+place:"Hunter South 323", script:"gfdgg", notes:"hello"});
+
+Items.insert({title:"html/css",
+id:"2", datetime:"1444506900",
+place:"Hunter Up 323", script:"gdsffffffffffffffffffffffffffffffffffffffffffffdgg", notes:"hello"});
+
+Items.insert({title:"#",id:"#", datetime:"1444506996",place:"#", script:"#", notes:"#"});

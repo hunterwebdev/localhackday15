@@ -4,37 +4,28 @@
     <div class="panel-heading">
       <div class="row">
         <div class="col-md-6">
-          <a class="accordion-toggle" data-parent="#accordion" data-toggle="collapse" href="#collapseOne">
+          <a class="accordion-toggle" data-parent="#accordion" data-toggle="collapse" href="#{{id}}">
             <h4>
-              <i class="glyphicon glyphicon-minus"> {{> singleItem}}</i>
+              <i class="glyphicon glyphicon-minus"> {{title}}</i>
             </h4>
           </a>
         </div>
         <div class="col-md-6">
           <span class="pull-right">
-            <h5>tuesday, nov 3 & 8am - 9pm
-            </h5>
+            <h5>{{datetime}}</h5>
           </span>
         </div>
       </div>
     </div>
-    <div class="panel-collapse collapse" id="collapseOne">
+    <div class="panel-collapse collapse" id="{{id}}">
       <div class="panel-body">
         <div class="row">
           <div class="col-md-8">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis est ex. Quisque vel ex eu urna pharetra pretium in ac nulla. Praesent non sem dui. Duis venenatis magna sit amet diam luctus, vitae ultrices sem lacinia. Integer accumsan eget
-              nisl non pretium. Nullam congue pretium erat a vulputate. Praesent imperdiet velit vel condimentum posuere. Mauris vestibulum turpis nec ipsum molestie vehicula.</p>
+            <p>{{script}}</p>
           </div>
           <div class="col-md-4">
-            <p style="font-weight: bold;">the event will be located at hunter south 234233</p>
-            <ul>
-              <li>
-                <a>google stuf</a>
-              </li>
-              <li>
-                <a>slides</a>
-              </li>
-            </ul>
+            <p style="font-weight: bold;">{{place}}</p>
+<ul><li>{{notes}}</li></ul>
           </div>
         </div>
       </div>

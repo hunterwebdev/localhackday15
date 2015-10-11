@@ -1,6 +1,6 @@
 Template.workshops.helpers({
   allItems: function () {
-    return Items.find();
+    return Items.find( { datetime: { $gte : Date.now()} } );
   }
 });
 

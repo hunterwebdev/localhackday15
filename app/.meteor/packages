@@ -26,4 +26,5 @@ ejson
 accounts-base
 accounts-password
 email
-accounts-ui
+ian:accounts-ui-bootstrap-3
+mrt:moment-timezone

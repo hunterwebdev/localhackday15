@@ -11,8 +11,8 @@
           </a>
         </div>
         <div class="col-md-6">
-          <span class="pull-right">
-            <h5>{{datetime}}</h5>
+          <span class="pull-right inner">
+            <div id="timedate"></div>
           </span>
         </div>
       </div>
@@ -31,8 +31,20 @@
       </div>
     </div>
   </div>
-  {{/each}}
 
+  {{/each}}
+  <script type="text/javascript">
+  function timeConverter(timestamp){
+var timeStamp = 10000; var theDate = new Date(timeStamp * 1000); var dateString = theDate.toGMTString();
+  }
+    var ntimedate = timeConverter({{datetime}});
+
+    $(document).ready(function()
+	{
+	$('#timedate').append("<p>"+ ntimedate+ "</p>");
+	});
+
+  </script>
   <script type="text/javascript">
     $('.collapse')
       .on('shown.bs.collapse', function () {

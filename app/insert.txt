@@ -1,13 +1,13 @@
 db.collectionname.remove({query})
 
-Items.insert({title:"My first item", createdAt: Date()});
+Items.insert({title:"My first item", datetime: Date()});
 
 Items.insert({title:"nodejs",
-id:"1", datetime:"1444596996",
-place:"Hunter South 323", script:"gfdgg", notes:"hello"});
+id:"1", datetime:144451330372079,
+place:"Hunter South 323", script:"Donec a odio id erat rutrum finibus. Pellentesque quis auctor felis, bibendum varius metus. Donec dolor purus, egestas sed nunc quis, cursus facilisis neque. Pellentesque malesuada pretium nisi, et rutrum sapien. Aenean in commodo sapien, eu sollicitudin leo. Ut sit amet consequat nisi, in dapibus ipsum. Suspendisse et nibh eget lorem placerat elementum. Pellentesque vitae felis fermentum, tincidunt nulla quis, ultricies lacus. Etiam urna erat, mattis nec metus vitae, elementum ultrices dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis dignissim molestie massa eget euismod.", notes:"hello"});
 
 Items.insert({title:"html/css",
-id:"2", datetime:"1444506900",
-place:"Hunter Up 323", script:"gdsffffffffffffffffffffffffffffffffffffffffffffdgg", notes:"hello"});
+id:"2", datetime:14445190372079,
+place:"Hunter Up 323", script:"Mauris sit amet velit eu nibh aliquam sollicitudin. Vestibulum quis ligula lorem. Suspendisse eget ante dui. Suspendisse ac erat sit amet justo vulputate sagittis. Morbi eget neque posuere, scelerisque tortor at, pellentesque urna. Suspendisse nec ornare lacus, a ullamcorper nunc. Mauris vestibulum mattis molestie. Pellentesque elementum sem at placerat lacinia. Ut posuere purus sed efficitur aliquet. Fusce hendrerit, tortor vitae eleifend molestie, purus ante accumsan eros, posuere ullamcorper nunc diam non enim. Curabitur maximus leo dui, eu auctor elit rutrum id. Etiam erat mi, pretium sed blandit nec, feugiat ut ex. Pellentesque dictum tempor placerat.", notes:"hello"});
 
-Items.insert({title:"#",id:"#", datetime:"1444506996",place:"#", script:"#", notes:"#"});
+Items.insert({title:"#",id:"#", datetime:Date.now(),place:"#", script:"#", notes:"#"});
